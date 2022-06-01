@@ -1,9 +1,13 @@
 //1
-let n = true;
-for (let i = 10; i <= 99; i++) {
+let n = "";
+for (let i = num1; i <= num2; i++) {
 if (i % i == 0) {
-		n = false;
-		break; 
+    if ((num2 - i) >= i){
+        n += i + ", ";
+    }else{
+        str += i;
+         }
+	
 	}
 }
 
